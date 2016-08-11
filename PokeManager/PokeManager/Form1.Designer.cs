@@ -32,6 +32,10 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.StartupSettings = new System.Windows.Forms.TabPage();
             this.HumanizeSettings = new System.Windows.Forms.TabPage();
+            this.InventorySettings = new System.Windows.Forms.TabPage();
+            this.PokemonSettings = new System.Windows.Forms.TabPage();
+            this.SniperSettings = new System.Windows.Forms.TabPage();
+            this.LocationFeeder = new System.Windows.Forms.TabPage();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip3 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -40,10 +44,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.InventorySettings = new System.Windows.Forms.TabPage();
-            this.PokemonSettings = new System.Windows.Forms.TabPage();
-            this.SniperSettings = new System.Windows.Forms.TabPage();
-            this.LocationFeeder = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -72,7 +72,7 @@
             this.StartupSettings.Location = new System.Drawing.Point(4, 54);
             this.StartupSettings.Margin = new System.Windows.Forms.Padding(0);
             this.StartupSettings.Name = "StartupSettings";
-            this.StartupSettings.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.StartupSettings.Padding = new System.Windows.Forms.Padding(3);
             this.StartupSettings.Size = new System.Drawing.Size(900, 546);
             this.StartupSettings.TabIndex = 0;
             this.StartupSettings.Text = "Startup Settings";
@@ -84,10 +84,50 @@
             this.HumanizeSettings.ForeColor = System.Drawing.Color.White;
             this.HumanizeSettings.Location = new System.Drawing.Point(4, 54);
             this.HumanizeSettings.Name = "HumanizeSettings";
-            this.HumanizeSettings.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.HumanizeSettings.Size = new System.Drawing.Size(1156, 546);
+            this.HumanizeSettings.Padding = new System.Windows.Forms.Padding(3);
+            this.HumanizeSettings.Size = new System.Drawing.Size(900, 546);
             this.HumanizeSettings.TabIndex = 1;
             this.HumanizeSettings.Text = "Humanize Settings";
+            // 
+            // InventorySettings
+            // 
+            this.InventorySettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.InventorySettings.ForeColor = System.Drawing.Color.White;
+            this.InventorySettings.Location = new System.Drawing.Point(4, 54);
+            this.InventorySettings.Name = "InventorySettings";
+            this.InventorySettings.Size = new System.Drawing.Size(900, 546);
+            this.InventorySettings.TabIndex = 2;
+            this.InventorySettings.Text = "Inventory Settings";
+            // 
+            // PokemonSettings
+            // 
+            this.PokemonSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.PokemonSettings.ForeColor = System.Drawing.Color.White;
+            this.PokemonSettings.Location = new System.Drawing.Point(4, 54);
+            this.PokemonSettings.Name = "PokemonSettings";
+            this.PokemonSettings.Size = new System.Drawing.Size(900, 546);
+            this.PokemonSettings.TabIndex = 3;
+            this.PokemonSettings.Text = "Pokemon Settings";
+            // 
+            // SniperSettings
+            // 
+            this.SniperSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.SniperSettings.ForeColor = System.Drawing.Color.White;
+            this.SniperSettings.Location = new System.Drawing.Point(4, 54);
+            this.SniperSettings.Name = "SniperSettings";
+            this.SniperSettings.Size = new System.Drawing.Size(900, 546);
+            this.SniperSettings.TabIndex = 4;
+            this.SniperSettings.Text = "Sniper Settings";
+            // 
+            // LocationFeeder
+            // 
+            this.LocationFeeder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
+            this.LocationFeeder.ForeColor = System.Drawing.Color.White;
+            this.LocationFeeder.Location = new System.Drawing.Point(4, 54);
+            this.LocationFeeder.Name = "LocationFeeder";
+            this.LocationFeeder.Size = new System.Drawing.Size(900, 546);
+            this.LocationFeeder.TabIndex = 5;
+            this.LocationFeeder.Text = "Location Feeder";
             // 
             // contextMenuStrip1
             // 
@@ -154,46 +194,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1, 660);
             this.panel2.TabIndex = 7;
-            // 
-            // InventorySettings
-            // 
-            this.InventorySettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.InventorySettings.ForeColor = System.Drawing.Color.White;
-            this.InventorySettings.Location = new System.Drawing.Point(4, 54);
-            this.InventorySettings.Name = "InventorySettings";
-            this.InventorySettings.Size = new System.Drawing.Size(1156, 546);
-            this.InventorySettings.TabIndex = 2;
-            this.InventorySettings.Text = "Inventory Settings";
-            // 
-            // PokemonSettings
-            // 
-            this.PokemonSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.PokemonSettings.ForeColor = System.Drawing.Color.White;
-            this.PokemonSettings.Location = new System.Drawing.Point(4, 54);
-            this.PokemonSettings.Name = "PokemonSettings";
-            this.PokemonSettings.Size = new System.Drawing.Size(1156, 546);
-            this.PokemonSettings.TabIndex = 3;
-            this.PokemonSettings.Text = "Pokemon Settings";
-            // 
-            // SniperSettings
-            // 
-            this.SniperSettings.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.SniperSettings.ForeColor = System.Drawing.Color.White;
-            this.SniperSettings.Location = new System.Drawing.Point(4, 54);
-            this.SniperSettings.Name = "SniperSettings";
-            this.SniperSettings.Size = new System.Drawing.Size(1156, 546);
-            this.SniperSettings.TabIndex = 4;
-            this.SniperSettings.Text = "Sniper Settings";
-            // 
-            // LocationFeeder
-            // 
-            this.LocationFeeder.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
-            this.LocationFeeder.ForeColor = System.Drawing.Color.White;
-            this.LocationFeeder.Location = new System.Drawing.Point(4, 54);
-            this.LocationFeeder.Name = "LocationFeeder";
-            this.LocationFeeder.Size = new System.Drawing.Size(900, 546);
-            this.LocationFeeder.TabIndex = 5;
-            this.LocationFeeder.Text = "Location Feeder";
             // 
             // Form1
             // 
