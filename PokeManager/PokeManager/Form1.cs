@@ -15,6 +15,7 @@ namespace PokeManager
         public Form1()
         {
             InitializeComponent();
+            MessageBox.Show($"The name 'example' is already used for another config. Press OK to overwrite the file or press CANCEL to rename it and try again.", "Error saving your config", MessageBoxButtons.OKCancel);
         }
     }
 }
