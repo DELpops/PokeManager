@@ -44,7 +44,6 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -59,11 +58,11 @@
             this.tabControl1.Controls.Add(this.LocationFeeder);
             this.tabControl1.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.tabControl1.ItemSize = new System.Drawing.Size(400, 50);
-            this.tabControl1.Location = new System.Drawing.Point(12, 91);
+            this.tabControl1.Location = new System.Drawing.Point(-10, 26);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.Padding = new System.Drawing.Point(25, 3);
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(908, 544);
+            this.tabControl1.Size = new System.Drawing.Size(950, 622);
             this.tabControl1.TabIndex = 0;
             // 
             // StartupSettings
@@ -74,7 +73,7 @@
             this.StartupSettings.Margin = new System.Windows.Forms.Padding(0);
             this.StartupSettings.Name = "StartupSettings";
             this.StartupSettings.Padding = new System.Windows.Forms.Padding(3);
-            this.StartupSettings.Size = new System.Drawing.Size(900, 486);
+            this.StartupSettings.Size = new System.Drawing.Size(942, 564);
             this.StartupSettings.TabIndex = 0;
             this.StartupSettings.Text = "Startup Settings";
             this.StartupSettings.Click += new System.EventHandler(this.StartupSettings_Click);
@@ -154,9 +153,9 @@
             this.menuStrip1.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pokeManagerToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(1, 0);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(930, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(932, 28);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "TitleMenu";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
@@ -172,9 +171,9 @@
             // statusStrip1
             // 
             this.statusStrip1.BackColor = System.Drawing.Color.Brown;
-            this.statusStrip1.Location = new System.Drawing.Point(1, 638);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 638);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(930, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(932, 22);
             this.statusStrip1.TabIndex = 5;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -182,28 +181,19 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Brown;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(0, 28);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1, 660);
+            this.panel1.Size = new System.Drawing.Size(1, 610);
             this.panel1.TabIndex = 6;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Brown;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(931, 0);
+            this.panel2.Location = new System.Drawing.Point(931, 28);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1, 660);
+            this.panel2.Size = new System.Drawing.Size(1, 610);
             this.panel2.TabIndex = 7;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(32, 45);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -211,11 +201,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(35)))), ((int)(((byte)(35)))));
             this.ClientSize = new System.Drawing.Size(932, 660);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.tabControl1);
             this.Font = new System.Drawing.Font("SansSerif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -247,7 +236,6 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Button button1;
     }
 }
 
