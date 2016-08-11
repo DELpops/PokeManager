@@ -16,5 +16,15 @@ namespace PokeManager
         {
             InitializeComponent();
         }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+            StartupSettings.ForeColor = Color.BlanchedAlmond;
+        }
+
+        private void StartupSettings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
