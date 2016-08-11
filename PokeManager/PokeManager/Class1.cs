@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using pbr = global::Google.Protobuf.Reflection;
 
 namespace PokeManager
 {
@@ -50,8 +51,8 @@ namespace PokeManager
 
         public string[] load_settings()
         {
-
             return new string[0];
         }
     }
+
 }
